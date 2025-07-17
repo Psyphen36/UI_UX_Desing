@@ -7,9 +7,6 @@
 > This project supports **frontend-only development without needing a backend**. You can preview all pages using dummy placeholder data.
 
 ---
-> ┌──────────────────────────────┐
-> │     Frontend Dev Settings    │
-> └──────────────────────────────┘
 ### ✅ Prerequisites
 
 * Node.js `>=18`
