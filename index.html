@@ -1,0 +1,36 @@
+<!-- /web_dashboard/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botino</title>
+    <meta name="description" content="MultiPlatform AI ChatBot Website" />
+    <meta name="author" content="ozz" />
+
+    <meta property="og:title" content="Botino" />
+    <meta property="og:description" content="MultiPlatform AI ChatBot Website" />
+    <meta property="og:type" content="website" />
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <style>
+      body {
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      body.ready {
+        opacity: 1;
+      }
+    </style>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        document.body.classList.add("ready");
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
