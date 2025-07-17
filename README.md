@@ -7,9 +7,9 @@
 > This project supports **frontend-only development without needing a backend**. You can preview all pages using dummy placeholder data.
 
 ---
- ┌──────────────────────────────┐
- │     Frontend Dev Settings    │
- └──────────────────────────────┘
+> ┌──────────────────────────────┐
+> │     Frontend Dev Settings    │
+> └──────────────────────────────┘
 ### ✅ Prerequisites
 
 * Node.js `>=18`
@@ -75,3 +75,5 @@ yarn dev
 This will start the app at [http://localhost:5173](http://localhost:5173) (default Vite port).
 
 ---
+There's one issue when you use the dummy creds for login won't be redirected to the dashbaord page for some reason but you get a logged in navbar so you can go to profile setting through navbar and then you'll get all the tabs:
+<img width="1584" height="65" alt="image" src="https://github.com/user-attachments/assets/0640d8aa-1dcc-4cb8-bbb2-c7c59b9f1854" />
