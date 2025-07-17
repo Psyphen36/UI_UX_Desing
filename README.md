@@ -26,7 +26,7 @@ npm install -g pnpm
 pnpm install
 ```
 
-Or use `npm install` or `yarn install` if preferred.
+Or use `npm install --legacy-peer-deps` or `yarn install` if preferred.
 
 ---
 
