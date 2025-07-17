@@ -73,4 +73,4 @@ This will start the app at [http://localhost:5173](http://localhost:5173) (defau
 
 ---
 There's one issue when you use the dummy creds for login won't be redirected to the dashbaord page for some reason but you get a logged in navbar so you can go to profile setting through navbar and then you'll get all the tabs:
-<img width="1584" height="65" alt="image" src="https://github.com/user-attachments/assets/0640d8aa-1dcc-4cb8-bbb2-c7c59b9f1854" />
+<img width="1525" height="167" alt="image" src="https://github.com/user-attachments/assets/685044e2-a5f2-439a-89df-f09720d8e981" />
